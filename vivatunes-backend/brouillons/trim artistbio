@@ -1,0 +1,4 @@
+string input = "\"Ton invitation\"";
+string output = input.Trim('\"'); 
+
+Console.WriteLine(output); // Résultat : Ton invitation
