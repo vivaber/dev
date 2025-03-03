@@ -1,0 +1,11 @@
+var requestBody = new
+{
+    model = _configuration["FireworksAI:AiModel"],
+    max_tokens = 250,  // Adapté à un texte de 80-120 mots
+    temperature = 0.3,  // Plus naturel sans trop de variation
+    top_p = 0.9,  // Bon équilibre entre diversité et cohérence
+    top_k = 40,   // Permet un choix diversifié mais contrôlé
+    presence_penalty = 0.2,  // Évite la répétition excessive
+    frequency_penalty = 0.1, // Encourage la variation des mots
+    prompt = prompt
+};
